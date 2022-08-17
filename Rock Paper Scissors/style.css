@@ -1,0 +1,37 @@
+body{
+    background-color: #828282;
+    color: white;
+    
+}
+.container{
+    text-align: center;
+    display: flex;
+    width: 90vw;
+    height: 40vh;
+
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+
+    margin: 4px;
+}
+button{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+
+    margin: 4px;
+
+    width: 100px;
+    height: 40px;
+
+}
+button:hover{
+    color: #1F51FF;
+    background-color: black;
+    border: 2px solid #1F51FF;
+}
